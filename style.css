@@ -1,0 +1,371 @@
+
+    .image-section {
+        background: url(images/image1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .about-button {
+        color: rgb(8, 7, 7);
+        background-color: #ffffff;
+        padding: 5px 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 1px solid rgb(27, 24, 24);
+        width: 130px;
+        margin-left: 200px;
+        cursor: pointer;
+    }
+
+    .top-text {
+        color: black;
+        font-family: 'Yatra One', sans-serif;
+        font-size: 95px;
+        /* margin-bottom: 10px; */
+    }
+
+    .mid-text {
+        color: black;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .image-container {
+        width: 130px;
+        height: 80px;
+
+    }
+    .border-bottom{
+        border-bottom: 10px solid #EE217A !important;
+        width: 133px;
+}
+    
+
+    .image-container img {
+        /* width: 100%; */
+        height: 15vh;
+        margin-left: 120px;
+    }
+
+    .tour-description {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        background-color: transparent;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 30px;
+        
+    }
+
+    .col-md-7 p {
+        font-size: 23px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        color: #696969;
+        padding: 45px;
+        margin-right: 10px;
+    }
+
+    .background-image .tour-title {
+        position: absolute;
+
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 45px;
+        font-style: italic;
+    }
+
+    .vertical-align p {
+        font-size: 28px;
+    }
+
+    .right-aligned-img {
+        display: block;
+        height: 550px;
+        width: auto;
+        margin: 0 auto;
+        /* Centering the image horizontally */
+    }
+
+    .light-text {
+        font-weight: lighter;
+    }
+
+    .experiences-text {
+        display: flex;
+        align-items: center;
+        font-style: italic;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-wrapper {
+        flex: 1;
+        margin: 0 10px;
+    }
+
+    .image-wrapper img {
+        width: 470px;
+        height: 457px;
+        border-radius: 141px 141px 0 0;
+        display: flex;
+
+    }
+
+    .image-description {
+        font-weight: normal;
+        font-size: 15px;
+        color: #696969;
+        font-family: Open Sans;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* height: 100%; */
+    }
+
+    .image-description p {
+        margin: 10px 0;
+        font-family: Open Sans;
+
+    }
+
+    .custom-image-container {
+        background-image: url(images/image8.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        font-size: 64px;
+        color: white;
+        padding: 40px;
+        font-family: Yatra One;
+    }
+
+    .custom-container {
+        position: absolute;
+        top: calc(80px + 64px + 60px + 60px + 20px);
+        left: 150px;
+        width: 380px;
+        height: auto;
+        overflow: hidden;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .images-container {
+        position: absolute;
+        bottom: 120px;
+        right: 90px;
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+
+    .images-container img {
+        width: 150px;
+        height: auto;
+        margin-left: 50px;
+    }
+
+    .images-container p {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+
+    /* .container {
+        padding: 45px;
+    } */
+
+    .container p {
+        font-size: 20px;
+    }
+
+    .container .col-md-8 p {
+        color: rgb(197, 195, 195);
+    }
+
+    .top-left-image {
+        position: relative;
+    }
+
+    .top-left-image img {
+        /* position: absolute; */
+        bottom: 0;
+        left: 0;
+        width: 70px;
+    }
+
+    .top-mid-image img {
+        /* position: absolute; */
+        bottom: 0;
+        left: 0;
+        width: 70px;
+    }
+
+    .top-right-image img {
+        /* position: absolute; */
+        bottom: 0;
+        left: 0;
+        width: 70px;
+    }
+
+
+    .tour-header {
+        font-size: 30px;
+        color: #696969;
+        font-weight: bold;
+        font-family: Open Sans;
+        
+    }
+
+    .description {
+        font-family: Open Sans;
+        font-size: 25px;
+
+    }
+
+    .fixed-size-img {
+        width: 453px;
+        height: 363.6px;
+    }
+
+    .card-text {
+        font-family: 'Yatra One', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 53px;
+        text-align: left;
+        margin-top: 60px;
+        color: white;
+        padding: 120px;
+    }
+
+    .experience-image {
+        width: 383.63px;
+        height: 353px;
+        top: 1224px;
+        left: 104px;
+        border-radius: 141px 141px 0px 0px;
+        /* Adjust any other styling properties here as needed */
+    }
+
+    .tour-packages {
+        /* width: 323px; */
+        height: 177px;
+        top: 1607px;
+        left: 149px;
+        color: #696969;
+        margin-left: 20px;
+    }
+
+    .custom-box {
+        /* width: 326px; */
+        height: 120px;
+        top: 1607px;
+        left: 564px;
+        color: #696969;
+        margin-left: 20px;
+    }
+
+    .custom-box-2 {
+        color: #696969;
+        /* width: 326px; */
+        height: 177px;
+        top: 1607px;
+        left: 987px;
+        margin-left: 20px;
+    }
+
+    .custom-col {
+        position: relative;
+    }
+    .image-div-9{
+        background-image: url(images/image9.jpg);
+        height: 436px;
+        width: 622px;
+    }
+    .background-image-1 {
+        background-image: url(images/image10.jpeg);
+        background-position: center;
+        width: 300px;
+        height: 209px;
+    }
+
+    .background-image-2 {
+        background-image: url(images/image11.jpeg);
+        background-position: center;
+        width: 300px;
+        height: 209px;
+    }
+
+    .background-image-3 {
+        background-image: url(images/image12.jpeg);
+        background-position: center;
+        width: 352px;
+        height: 419px;
+    }
+
+    .background-image-4 {
+        background-image: url(images/image13.jpeg);
+        background-position: center;
+        width: 392px;
+        height: 209px;
+    }
+
+    .background-image-5 {
+        background-image: url(images/image14.jpeg);
+        background-position: center;
+        width: 392px;
+        height: 209px;
+    }
+    .background-image-15{
+        background-image: url(images/image15.jpeg);
+        background-position: center;
+        width: 311px;
+        height: 209px;
+    }
+    .background-image-16 {
+        background-image: url(images/image16.jpeg);
+        background-position: center;
+        width: 311px;
+        height: 209px;
+    }
+    
